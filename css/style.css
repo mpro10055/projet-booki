@@ -14,16 +14,93 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
+width: 375px;
+height: 4058.02px;
+opacity: 1;
+
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    padding: 0 50px;
-    box-sizing: border-box;
+.mobile-container{
+width: 375px;
+opacity: 1;
+gap: 30px;
+display:flex;
+flex-direction: column;
+align-items: center;
+
+
 }
+
+header {
+width: 375px;
+height: 115px;
+opacity: 1;
+display: flex;
+flex-direction: column;
+ align-items: center;
+}
+
+.logo-container {
+width: 121px;
+height: 79px;
+opacity: 1;
+gap: 10px;
+padding: 30px;
+display:flex ;
+flex-direction: column;
+}
+ .logo {
+width: 61px;
+height: 19px;
+ }
+
+nav {
+width: 375px;
+height: 36px;
+gap: 15px;
+display:flex;
+flex-direction: column;
+ }
+
+ .menu-nav-links {
+width: 375px;
+height: 19px;
+flex-direction: row;
+display: flex;
+list-style: none;
+ }
+
+ .nav-link {
+color:#000000;
+width: 187.5px;
+height: 19px;
+opacity: 1;
+left: 187.5px;
+font-family: Raleway;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+display: flex;
+ }
+
+ .nav-link-active{
+ width: 187.5px;
+height: 19px;
+color:#0065FC;
+ }
+
+main{
+display: flex;
+flex-direction:column;   
+width: 375px;
+height: 3983px;
+opacity: 1;
+gap: 35px;
+ }
+
+
 
 a {
     color: inherit;
@@ -120,9 +197,6 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
