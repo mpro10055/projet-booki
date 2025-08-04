@@ -24,9 +24,9 @@ height:4px;
 
 .container{
 width: 100%;
- max-width: 1440px;
-padding: 0 50px;
+max-width: 1440px;
 box-sizing: border-box;
+padding: 35px
 
 }
 
@@ -116,19 +116,21 @@ main{
 display: flex;
 flex-direction:column;   
 width: 375px;
-height: 3,983px;
+height: 3983px;
 opacity: 1;
-gap: 35px;
+gap: 30px;
 margin-left: -50px;
  }
 
  .recherche{
-width: 375px;
+width: 345px;
 opacity: 1;
 gap: 35px;
 padding-right: 20px;
 display: flex;
 flex-direction: column;
+padding-right: 20px;
+padding-left: 20px;
  }
 
  
@@ -154,7 +156,7 @@ h1 {
   letter-spacing: 0%;
   color: #000000;
   text-align: -webkit-left;
-  margin-top: unset
+  margin-top: 0
 }
 
 
@@ -490,13 +492,17 @@ a {
 /****** Populaires ***********/
 .populaires{
 width: 375px;
-height: 4127.5185546875px;
 opacity: 1;
-gap: 30px;
+padding-right: 20px;
+padding-left: 20px;
+display: flex;
+flex-direction: column;
+gap:15px
 }
 
 .populaires-hebergements{
-width: 375px;
+width: 345px;
+height: 520px;
 opacity: 1;
 gap: 15px;
 padding-top: 30px;
@@ -504,7 +510,6 @@ padding-bottom: 30px;
 padding-left: 5px;
 flex-direction: column;
 display: flex;
-width: 100%;
 background: #F2F2F2;
 }
 
@@ -574,7 +579,7 @@ display: flex;
 }
 
 .imgnospepites{
- width: 111.66666412353516px;
+width: 111.66666412353516px;
 opacity: 1;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
@@ -588,7 +593,6 @@ border-color: #FFFFFF;
 }
 
 .card-content{
-width: 223.3333282470703px;
 height: 136px;
 opacity: 1;
 gap: 24px;
@@ -601,17 +605,17 @@ flex-direction: column;
 display: flex;
 }
 
-.card-txt{width: 203.3333282470703px;
+.card-txt{
+width: 203.3333282470703px;
 height: 85px;
 opacity: 1;
-gap: 5px;
 flex-direction: column;
+display: flex;
 
 }
 
 .card-title{
 width: 203.3333282470703px;
-height: 19px;
 opacity: 1;
 font-family: Raleway;
 font-weight: 700;
@@ -652,10 +656,12 @@ opacity: 1;
 width: 375px;
 height: 1435.5px;
 opacity: 1;
-gap: 15px;
 flex-direction: column;
 display: flex;
+margin-top: 20px;
+gap:5px
 }
+
 
 .section-title{
 width: 335px;
@@ -674,7 +680,22 @@ opacity: 1;
 gap: 15px;
 display: flex;
 width: 335px;
+height: 1435px;
 flex-direction: column;
+}
+
+.afficher-plus{
+  width: 335px;
+  height: 21px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+  gap: 15px;
+  display: flex;
 }
 
 
@@ -688,11 +709,14 @@ flex-direction: column;
 display: flex;
 background: #FFFFFF;
 box-shadow: 0px 3px 15px 0px #0000001A;
+height: 195px;
+width: 345px;
 }
 
 
 .img-hebergement{
 height: 124px;
+width: 335px;
 opacity: 1;
 border-width: 5px;
 border-top-left-radius: 20px;
@@ -709,7 +733,7 @@ padding-right: 15px;
 padding-left: 15px;
 height: 54.25px;
 position: relative;
-top: -30px;
+top: -20px;
 }
 
 
@@ -720,9 +744,21 @@ opacity: 1;
 gap: 8px;
 }
 
+.cardhebergements-title {
+  width: 305px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
 
 .cardhebergements-rating {
-margin-top: -5px;
+margin-top: -15px;
+height: 13.25px;
+opacity: 1;
 }
 
 .cardhebergments-title{
@@ -737,8 +773,8 @@ color:#000000
 }
 
 .cardhebergements-subtitle{
-width: 305;
-height: 16;
+width: 305px;
+height: 16px;
 opacity: 1;
 font-family: Raleway;
 font-weight: 400;
@@ -760,10 +796,11 @@ letter-spacing: 0%;
 width: 375px;
 height: 965.0187377929688px;
 opacity: 1;
-gap: 30px;
 flex-direction: column;
 display: flex;
 margin-top: 60px;
+gap: 15px;
+display: flex;
 }
 
 .titre-Activites {
@@ -805,7 +842,7 @@ display: flex;
 
 .meilleursactivites{
 flex-direction: column;
-width: 315px;
+width: 345px;
 opacity: 1;
 border-radius: 20px;
 box-shadow: 0px 3px 15px 0px #0000001A;
@@ -814,7 +851,7 @@ display: flex;
 
 
 .img-activites{
-width: 335px;
+width: 345px;
 height: 141px;
 opacity: 1;
 border-top-left-radius: 20px;
@@ -834,6 +871,7 @@ padding-left: 19px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
 flex-direction:column;
+display: flex;
 background: #FFFFFF;
 }
 
@@ -847,10 +885,177 @@ font-weight: 700;
 font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
+position: relative;
+top: -15px;
 color: #000000;
 }
 
+.footer-container{
+  height: 461px;
+  opacity: 1;
+  background: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 40px;
+  width: 305px;
+  margin: 15px;
+}
 
+.footer-titre1 {
+  width: 263.6666564941406px;
+  height: 123px;
+  opacity: 1;
+
+}
+
+.a-propos {
+  width: 104.65119934082031px;
+  height: 21px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000;
+}
+
+.\31  {
+  list-style: none;
+  padding: initial;
+  display: grid;
+  gap:15px;
+}
+
+.fonction {
+  width: 239.2027587890625px;
+  height: 19px;
+   opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+
+.Conditions {
+  width: 213.37973022460938px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Données {
+  width: 263.6666564941406px;
+  height: 19;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
+
+.footer-titre2{
+width: 263.6666564941406px;
+height: 89px;
+opacity: 1;
+}
+
+.Nos-hebergements {
+  width: 263.6666564941406px;
+  height: 21px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
+.\32 {
+  list-style: none;
+  padding: initial;
+  display: grid;
+  gap: 15px;
+}
+
+.Charte {
+  width: 166.1898956298828px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Soumetre-votre-hôtel {
+  width: 239.69696044921875px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.footer-titre3{
+width: 263.6666564941406px;
+height: 89px;
+opacity: 1;
+}
+
+.Assistance {
+  width: 215.09646606445312px;
+  height: 21px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.\33 {
+list-style: none;
+padding: initial;
+gap: 15px;
+  display: grid;
+}
+
+.Centre-aide {
+  width: 226.6608123779297px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.Nous-contactez {
+  width: 263.6666564941406px;
+  height: 19px;
+  opacity: 1;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
